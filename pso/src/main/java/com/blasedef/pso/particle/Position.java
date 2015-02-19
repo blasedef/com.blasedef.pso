@@ -2,13 +2,23 @@ package com.blasedef.pso.particle;
 
 import java.util.ArrayList;
 
+import com.blasedef.pso.space.ISpace;
+
 public class Position implements IPosition {
 	
 	private ArrayList<Double> position;
 	private Double cost;
+	private ISpace iSpace;
+	private boolean isVelocity = false;
 	
-	public Position(){
+	public Position(ISpace iSpace){
 		this.setPosition(new ArrayList<Double>());
+		this.cost = Double.MAX_VALUE;
+		if(iSpace == null){
+			this.isVelocity = true;
+		}
+		this.iSpace = iSpace;
+		
 	}
 
 	public ArrayList<Double> getPosition() {
@@ -23,7 +33,7 @@ public class Position implements IPosition {
 		return position.get(i);
 	}
 
-	public void setPosition(Double d, int i) {
+	public void setPosition(int i, Double d) {
 		this.position.set(i, d);
 	}
 	
@@ -31,17 +41,21 @@ public class Position implements IPosition {
 		return this.position.size();
 	}
 	
-	public void move(ArrayList<Double> velocity, ArrayList<Double> jumps){
-		for(int index = 0; index < velocity.size(); index++){
-			Double x = this.position.get(index) + velocity.get(index) * jumps.get(index);
-			this.position.set(index, x);
+	public void move(IPosition velocity, IPosition jumps){
+		if(!isVelocity){
+			for(int index = 0; index < velocity.getSize(); index++){
+				Double x = iSpace.fit(index, this.position.get(index) + velocity.getPosition(index) * jumps.getPosition(index));
+				this.position.set(index, x);
+			}
 		}
 	}
 	
-	public void move(ArrayList<Double> velocity){
-		for(int index = 0; index < velocity.size(); index++){
-			Double x = this.position.get(index) + velocity.get(index);
-			this.position.set(index, x);
+	public void move(IPosition velocity){
+		if(!isVelocity){
+			for(int index = 0; index < velocity.getSize(); index++){
+				Double x = iSpace.fit(index,this.position.get(index) + velocity.getPosition(index));
+				this.position.set(index, x);
+			}
 		}
 	}
 	
