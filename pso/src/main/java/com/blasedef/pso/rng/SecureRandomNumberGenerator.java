@@ -17,5 +17,9 @@ public class SecureRandomNumberGenerator implements IRandomNumberGenerator {
 	public Double getDoubleInRange(Double min, Double max) {
 		return (random.nextDouble() * ((max-min)+1)) + min;
 	}
+	
+	public int getFamily(){
+		return random.nextInt();
+	}
 
 }

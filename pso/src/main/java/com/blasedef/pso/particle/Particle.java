@@ -1,6 +1,5 @@
 package com.blasedef.pso.particle;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
@@ -26,6 +25,13 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 	private ICostFunction costFunction;
 	private boolean isFinished;
 	private ISpace space;
+	private int generation = 0;
+	private int family = 0;
+	
+	public Particle(){
+		this.position = new Position();
+		this.velocity = new Position();
+	}
 	
 	public Particle(Double originalVelocityProportion,
 			Double personalBestProportion,
@@ -59,6 +65,7 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 		this.groupList.get(group).add(this);
 		this.barrier.add(this);
 		isFinished = false;
+		this.setFamily(rng.getFamily());
 
 	}
 	
@@ -96,6 +103,7 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 		this.groupList.get(group).add(this);
 		this.barrier.add(this);
 		isFinished = false;
+		this.setFamily(rng.getFamily());
 	}
 	
 	public Particle(Double originalVelocityProportion,
@@ -134,6 +142,7 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 		this.groupList.get(group).add(this);
 		this.barrier.add(this);
 		isFinished = false;
+		this.setFamily(rng.getFamily());
 	}
 
 	public IPosition getPosition() {
@@ -191,10 +200,25 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 	}
 	
 	public void move(boolean jumps){
+		
+		Particle temporaryParticle = new Particle();
+		
+		((Position) temporaryParticle.getPosition()).setPosition(this.position);
+		((Position) temporaryParticle.getVelocity()).setPosition(this.velocity);
+		((Position) temporaryParticle.getPosition()).setCost(this.getCost());
+		temporaryParticle.setGeneration(this.getGeneration());
+		temporaryParticle.setFamily(this.family);
+		this.updateGeneration();
+		
+		this.groupList.get(this.group).add(temporaryParticle);
+		this.globalQueue.add(temporaryParticle);
+		
+		
 		if(jumps)
 			this.position.move(this.velocity, this.jumps);
 		else
 			this.position.move(this.velocity);
+		
 	}
 
 	public Double getCost() {
@@ -224,6 +248,38 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 
 	public void setFinished(boolean b) {
 		isFinished = b;
+	}
+
+	public int getGeneration() {
+		return generation;
+	}
+	
+	public void setGeneration(int i) {
+		this.generation = i;
+	}
+	
+	public void updateGeneration(){
+		this.generation++;
+	}
+
+	public int getFamily() {
+		return family;
+	}
+
+	public void setFamily(int family) {
+		this.family = family;
+	}
+	
+	@Override
+	public String toString(){
+		String name = "";
+		
+		name = "pos:" + this.position.toString();
+		name = name + " vel:" + this.velocity.toString();
+		name = name + " gen:" + this.generation;
+		name = name + " fam:" + this.family;
+		
+		return name;
 	}
 
 }

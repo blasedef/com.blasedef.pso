@@ -19,6 +19,7 @@ public class Position implements IPosition {
 			if(position){
 				this.setPosition(this.space.initialisePosition());
 			} else {
+				isVelocity = true;
 				this.setPosition(this.space.initialiseVelocity());
 			}
 		
@@ -29,6 +30,12 @@ public class Position implements IPosition {
 		this.cost = Double.MAX_VALUE;
 		this.space = null;
 	}
+	
+	public Position(ISpace space){
+		this.setPosition(new ArrayList<Double>());
+		this.cost = Double.MAX_VALUE;
+		this.space = space;
+	}
 
 	public ArrayList<Double> getPosition() {
 		return position;
@@ -36,6 +43,15 @@ public class Position implements IPosition {
 
 	public void setPosition(ArrayList<Double> position) {
 		this.position = position;
+	}
+	
+	public void setPosition(IPosition position) {
+		if(this.position == null){
+			this.position = new ArrayList<Double>();
+		}
+		for(int index = 0; index < position.getSize(); index++){
+			this.position.add(position.getPosition(index));
+		}
 	}
 	
 	public Double getPosition(int i) {
@@ -68,6 +84,7 @@ public class Position implements IPosition {
 	}
 	
 	public void move(IPosition velocity){
+		
 		if(!isVelocity){
 			for(int index = 0; index < velocity.getSize(); index++){
 				Double x = space.fit(index,this.position.get(index) + velocity.getPosition(index));
@@ -97,7 +114,10 @@ public class Position implements IPosition {
 			name = name + " " + i + ":" + this.position.get(i);
 		}
 		
-		return name + " @Cost " + this.cost;
+		if(!isVelocity)
+			return name + " @Cost " + this.cost;
+		else
+			return name;
 		
 	}
 
