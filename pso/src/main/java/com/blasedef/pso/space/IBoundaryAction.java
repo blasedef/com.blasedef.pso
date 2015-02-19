@@ -1,7 +1,11 @@
 package com.blasedef.pso.space;
 
+import java.util.ArrayList;
+
 public interface IBoundaryAction {
 
-	Double fit(int index, double d);
+	public Double fit(int index, double d);
+	
+	public void addSpace(ArrayList<Tuple> space);
 
 }

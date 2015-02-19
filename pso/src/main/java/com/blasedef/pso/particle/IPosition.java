@@ -15,4 +15,6 @@ public interface IPosition {
 	public void move(IPosition velocity, IPosition jumps);
 	
 	public Double getCost();
+	
+	public void setCost(Double d);
 }

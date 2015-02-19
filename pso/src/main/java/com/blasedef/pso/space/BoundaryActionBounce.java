@@ -13,4 +13,8 @@ public class BoundaryActionBounce implements IBoundaryAction {
 		//TODO
 		return 0.0;
 	}
+	
+	public void addSpace(ArrayList<Tuple> space) {
+		this.space = space;
+	}
 }

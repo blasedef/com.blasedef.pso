@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class InitialPosition implements IInitialPosition {
 
 	private ArrayList<Tuple> space;
+	
+	public InitialPosition() {
+		this.space = null;
+	}
 
 	public InitialPosition(ArrayList<Tuple> space) {
 		this.space = space;

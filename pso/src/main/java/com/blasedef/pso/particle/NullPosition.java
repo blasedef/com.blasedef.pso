@@ -40,4 +40,7 @@ public class NullPosition implements IPosition {
 	public void setPosition(ArrayList<Double> position) {
 		
 	}
+
+	public void setCost(Double d) {
+	}
 }

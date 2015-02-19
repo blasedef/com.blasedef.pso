@@ -8,17 +8,26 @@ public class Position implements IPosition {
 	
 	private ArrayList<Double> position;
 	private Double cost;
-	private ISpace iSpace;
+	private ISpace space;
 	private boolean isVelocity = false;
 	
-	public Position(ISpace iSpace){
+	public Position(ISpace space, boolean position){
 		this.setPosition(new ArrayList<Double>());
 		this.cost = Double.MAX_VALUE;
-		if(iSpace == null){
-			this.isVelocity = true;
-		}
-		this.iSpace = iSpace;
+		this.space = space;
+		if(space != null)
+			if(position){
+				this.setPosition(this.space.initialisePosition());
+			} else {
+				this.setPosition(this.space.initialiseVelocity());
+			}
 		
+	}
+	
+	public Position(){
+		this.setPosition(new ArrayList<Double>());
+		this.cost = Double.MAX_VALUE;
+		this.space = null;
 	}
 
 	public ArrayList<Double> getPosition() {
@@ -34,7 +43,15 @@ public class Position implements IPosition {
 	}
 
 	public void setPosition(int i, Double d) {
-		this.position.set(i, d);
+		if(this.position == null){
+			this.position = new ArrayList<Double>();
+		}
+		if(this.position.size() == i){
+			this.position.add(d);
+		} else {
+			this.position.set(i, d);
+		}
+		
 	}
 	
 	public int getSize(){
@@ -44,7 +61,7 @@ public class Position implements IPosition {
 	public void move(IPosition velocity, IPosition jumps){
 		if(!isVelocity){
 			for(int index = 0; index < velocity.getSize(); index++){
-				Double x = iSpace.fit(index, this.position.get(index) + velocity.getPosition(index) * jumps.getPosition(index));
+				Double x = space.fit(index, this.position.get(index) + velocity.getPosition(index) * jumps.getPosition(index));
 				this.position.set(index, x);
 			}
 		}
@@ -53,7 +70,7 @@ public class Position implements IPosition {
 	public void move(IPosition velocity){
 		if(!isVelocity){
 			for(int index = 0; index < velocity.getSize(); index++){
-				Double x = iSpace.fit(index,this.position.get(index) + velocity.getPosition(index));
+				Double x = space.fit(index,this.position.get(index) + velocity.getPosition(index));
 				this.position.set(index, x);
 			}
 		}
@@ -67,5 +84,21 @@ public class Position implements IPosition {
 		return this.cost;
 	}
 
+	@Override
+	public String toString(){
+		
+		String name = "";
+		
+		if((this.position.size() == 0) || (this.position == null)){
+			name = "no position yet";
+		}
+		
+		for(int i = 0; i < this.position.size(); i++){
+			name = name + " " + i + ":" + this.position.get(i);
+		}
+		
+		return name + " @Cost " + this.cost;
+		
+	}
 
 }

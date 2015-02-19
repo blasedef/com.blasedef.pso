@@ -6,6 +6,10 @@ public class InitialVelocity implements IInitialVelocity {
 	
 	private ArrayList<Tuple> space;
 
+	public InitialVelocity() {
+		this.space = null;
+	}
+	
 	public InitialVelocity(ArrayList<Tuple> space) {
 		this.space = space;
 	}

@@ -10,6 +10,10 @@ public class BoundaryActionStop implements IBoundaryAction {
 		this.space = space;
 	}
 	
+	public BoundaryActionStop(){
+		this.space = null;
+	}
+	
 	public Double fit(int index, double d) {
 		
 		if(space.get(index).isInsideBounds(d))
@@ -19,5 +23,9 @@ public class BoundaryActionStop implements IBoundaryAction {
 				return space.get(index).getMin();
 			else
 				return space.get(index).getMax();
+	}
+
+	public void addSpace(ArrayList<Tuple> space) {
+		this.space = space;
 	}
 }

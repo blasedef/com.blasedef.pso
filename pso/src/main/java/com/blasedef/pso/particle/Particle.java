@@ -1,6 +1,7 @@
 package com.blasedef.pso.particle;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.PriorityQueue;
 
 import com.blasedef.pso.costfunction.ICostFunction;
@@ -13,14 +14,14 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 	private IPosition velocity;
 	private PriorityQueue<IParticle> myBest;
 	private IPosition jumps;
-	private int group;
+	private Integer group;
 	private Double originalVelocityProportion, 
 	personalBestProportion, 
 	groupProportion, 
 	globalBestProportion;
 	private IRandomNumberGenerator rng;
 	private PriorityQueue<IParticle> globalQueue;
-	private ArrayList<PriorityQueue<IParticle>> groupList;
+	private HashMap<Integer,PriorityQueue<IParticle>> groupList;
 	private Barrier barrier;
 	private ICostFunction costFunction;
 	private boolean isFinished;
@@ -31,13 +32,13 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 			Double globalBestProportion,
 			IRandomNumberGenerator rng,
 			PriorityQueue<IParticle> globalQueue,
-			ArrayList<PriorityQueue<IParticle>> groupList,
+			HashMap<Integer,PriorityQueue<IParticle>> groupList,
 			Barrier barrier,
 			ICostFunction costFunction,
 			ISpace space){
 		
-		this.position = new Position(space);
-		this.velocity = new Position(null);
+		this.position = new Position(space,true);
+		this.velocity = new Position(space,false);
 		this.myBest = new PriorityQueue<IParticle>();
 		this.group = 0;
 		this.originalVelocityProportion = originalVelocityProportion;
@@ -53,27 +54,28 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 		
 		this.myBest.add(this);
 		this.globalQueue.add(this);
+		if(!this.groupList.keySet().contains(this.group))
+			this.groupList.put(this.group,new PriorityQueue<IParticle>());
 		this.groupList.get(group).add(this);
 		this.barrier.add(this);
 		isFinished = false;
-		this.position.setPosition(this.space.initialisePosition());
-		this.velocity.setPosition(this.space.initialiseVelocity());
+
 	}
 	
 	public Particle(Double originalVelocityProportion,
 			Double personalBestProportion,
 			Double groupProportion,
 			Double globalBestProportion,
-			int group,
+			Integer group,
 			IRandomNumberGenerator rng,
 			PriorityQueue<IParticle> globalQueue,
-			ArrayList<PriorityQueue<IParticle>> groupList,
+			HashMap<Integer,PriorityQueue<IParticle>> groupList,
 			Barrier barrier,
 			ICostFunction costFunction,
 			ISpace space){
 		
-		this.position = new Position(space);
-		this.velocity = new Position(null);
+		this.position = new Position(space,true);
+		this.velocity = new Position(space,false);
 		this.myBest = new PriorityQueue<IParticle>();
 		this.group = 0;
 		this.originalVelocityProportion = originalVelocityProportion;
@@ -89,28 +91,28 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 
 		this.myBest.add(this);
 		this.globalQueue.add(this);
+		if(!this.groupList.keySet().contains(this.group))
+			this.groupList.put(this.group,new PriorityQueue<IParticle>());
 		this.groupList.get(group).add(this);
 		this.barrier.add(this);
 		isFinished = false;
-		this.position.setPosition(this.space.initialisePosition());
-		this.velocity.setPosition(this.space.initialiseVelocity());
 	}
 	
 	public Particle(Double originalVelocityProportion,
 			Double personalBestProportion,
 			Double groupProportion,
 			Double globalBestProportion,
-			int group,
+			Integer group,
 			IRandomNumberGenerator rng,
 			IPosition jumps,
 			PriorityQueue<IParticle> globalQueue,
-			ArrayList<PriorityQueue<IParticle>> groupList,
+			HashMap<Integer,PriorityQueue<IParticle>> groupList,
 			Barrier barrier,
 			ICostFunction costFunction,
 			ISpace space){
 		
-		this.position = new Position(space);
-		this.velocity = new Position(null);
+		this.position = new Position(space,true);
+		this.velocity = new Position(space,false);
 		this.myBest = new PriorityQueue<IParticle>();
 		this.group = 0;
 		this.originalVelocityProportion = originalVelocityProportion;
@@ -127,11 +129,11 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 
 		this.myBest.add(this);
 		this.globalQueue.add(this);
+		if(!this.groupList.keySet().contains(this.group))
+			this.groupList.put(this.group,new PriorityQueue<IParticle>());
 		this.groupList.get(group).add(this);
 		this.barrier.add(this);
 		isFinished = false;
-		this.position.setPosition(this.space.initialisePosition());
-		this.velocity.setPosition(this.space.initialiseVelocity());
 	}
 
 	public IPosition getPosition() {
@@ -163,7 +165,7 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 		if(group == null)
 			group = new NullParticle();
 		
-		Position newVelocity = new Position(null); 
+		Position newVelocity = new Position(); 
 		
 		for(int i = 0; i < this.position.getSize(); i++){
 			
@@ -179,6 +181,8 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 			newVelocity.setPosition(i, velocity);
 			
 		}
+		
+		this.velocity.setPosition(newVelocity.getPosition());
 		
 	}
 
