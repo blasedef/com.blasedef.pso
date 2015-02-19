@@ -43,4 +43,12 @@ public class NullPosition implements IPosition {
 
 	public void setCost(Double d) {
 	}
+
+	/**
+	 * For testing only
+	 */
+	public void setPosition(double d, double e, double f) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -4,7 +4,7 @@ public interface IRandomNumberGenerator {
 	
 	public Double getRandomNumber(Double w);
 	
-	public Double getDoubleInRange(Double min,Double max);
+	public Double getDoubleInRange(Double min, Double max, boolean canNegative);
 	
 	public int getFamily();
 

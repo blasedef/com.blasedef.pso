@@ -22,7 +22,7 @@ public class InitialVelocity implements IInitialVelocity {
 		ArrayList<Double> velocity = new ArrayList<Double>();
 		
 		for(Tuple t : space){
-			velocity.add(t.getPosition());
+			velocity.add(t.getVelocity());
 		}
 		
 		return velocity;

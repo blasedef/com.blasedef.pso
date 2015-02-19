@@ -282,4 +282,14 @@ public class Particle implements IParticle, Comparable<IParticle>, Runnable {
 		return name;
 	}
 
+	/**
+	 * For testing purposes only
+	 * @param d
+	 * @param e
+	 * @param f
+	 */
+	public void setPosition(double d, double e, double f) {
+		this.position.setPosition(d,e,f);
+	}
+
 }

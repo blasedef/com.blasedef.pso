@@ -17,4 +17,12 @@ public interface IPosition {
 	public Double getCost();
 	
 	public void setCost(Double d);
+
+	/**
+	 * for testing only
+	 * @param d
+	 * @param e
+	 * @param f
+	 */
+	public void setPosition(double d, double e, double f);
 }

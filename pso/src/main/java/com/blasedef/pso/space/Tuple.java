@@ -14,7 +14,11 @@ public class Tuple {
 	}
 	
 	public Double getPosition(){
-		return rng.getDoubleInRange(min, max);
+		return rng.getDoubleInRange(min, max, false);
+	}
+	
+	public Double getVelocity(){
+		return rng.getDoubleInRange(min, max, true);
 	}
 	
 	public boolean isInsideBounds(Double d){

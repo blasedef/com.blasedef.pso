@@ -49,221 +49,113 @@ public class ParticleTest extends TestCase {
 		particle.updateVelocity();
 		particle.move(false);
 		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
-		particle.updateVelocity();
-		particle.move(false);
-		particle.assessCost();
+	
 		//System.out.println(particle);
-		assertEquals(particle.getCost(), 1508.6559748578948);
+		assertEquals(particle.getCost(), 1463.53);
+		
+	}
+	
+	
+	public void testAssessParticle2() {
+		
+		
+		Double originalVelocityProportion = 0.01;
+		Double personalBestProportion = 0.01;
+		Double groupProportion = 0.01;
+		Double globalBestProportion = 0.01;
+		int group = 0;
+		IRandomNumberGenerator rng = new NoRandomNumberGenerator();
+		PriorityQueue<IParticle> globalQueue = new PriorityQueue<IParticle>();
+		HashMap<Integer,PriorityQueue<IParticle>> groupList = new HashMap<Integer,PriorityQueue<IParticle>>();
+		Barrier barrier = new Barrier();
+		ICostFunction costFunction = new SimpleCostFunction();
+		ISpace space = new Space(null,null,null,null);
+		space.addDimension(0.0, 1000.0, rng);
+		space.addDimension(0.0, 1000.0, rng);
+		space.addDimension(0.0, 1000.0, rng);
+		
+		Particle particle = new Particle(originalVelocityProportion, 
+				personalBestProportion, 
+				groupProportion, 
+				globalBestProportion, 
+				group, 
+				rng, 
+				globalQueue, 
+				groupList, 
+				barrier, 
+				costFunction, 
+				space);
+		
+		particle.assessCost();
+		particle.updateVelocity();
+		particle.move(false);
+		particle.assessCost();
+	
+		//System.out.println(particle);
+		assertEquals(particle.getCost(), 2545.0299999999997);
+		
+	}
+	
+	public void testAssessParticle3() {
+		
+		
+		Double originalVelocityProportion = 0.01;
+		Double personalBestProportion = 0.01;
+		Double groupProportion = 0.01;
+		Double globalBestProportion = 0.01;
+		
+		int group = 0;
+		
+		IRandomNumberGenerator rng = new NoRandomNumberGenerator();
+		PriorityQueue<IParticle> globalQueue = new PriorityQueue<IParticle>();
+		HashMap<Integer,PriorityQueue<IParticle>> groupList = new HashMap<Integer,PriorityQueue<IParticle>>();
+		
+		Barrier barrier = new Barrier();
+		ICostFunction costFunction = new SimpleCostFunction();
+		
+		ISpace space = new Space(null,null,null,null);
+		space.addDimension(0.0, 100.0, rng);
+		space.addDimension(0.0, 100.0, rng);
+		space.addDimension(0.0, 100.0, rng);
+		
+		Particle particle1 = new Particle(originalVelocityProportion, 
+				personalBestProportion, 
+				groupProportion, 
+				globalBestProportion, 
+				group, 
+				rng, 
+				globalQueue, 
+				groupList, 
+				barrier, 
+				costFunction, 
+				space);
+		
+		Particle particle2 = new Particle(originalVelocityProportion, 
+				personalBestProportion, 
+				groupProportion, 
+				globalBestProportion, 
+				group, 
+				rng, 
+				globalQueue, 
+				groupList, 
+				barrier, 
+				costFunction, 
+				space);
+		
+		particle1.setPosition(0.0,1.0,2.0);
+		particle2.setPosition(100.0,99.0,98.0);
+		
+		particle1.assessCost();
+		particle2.assessCost();
+		particle1.updateVelocity();
+		particle2.updateVelocity();
+		particle1.move(false);
+		particle2.move(false);
+		particle1.assessCost();
+		particle2.assessCost();
+		
+		assertEquals(globalQueue.peek().getCost(), 1003.12);
+		
 	}
 	
 }

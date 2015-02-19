@@ -15,8 +15,12 @@ public class NoRandomNumberGenerator implements IRandomNumberGenerator {
 		return w;
 	}
 
-	public Double getDoubleInRange(Double min, Double max) {
-		return (max - min)/100 + min;
+	public Double getDoubleInRange(Double min, Double max, boolean canNegative) {
+		Double result = ((max - min)/2) + min;
+		if(canNegative){
+			result = 1.0;
+		}
+		return result;
 	}
 	
 	public int getFamily(){

@@ -14,12 +14,18 @@ public class SecureRandomNumberGenerator implements IRandomNumberGenerator {
 		return random.nextDouble() * w;
 	}
 
-	public Double getDoubleInRange(Double min, Double max) {
-		return (random.nextDouble() * ((max-min)+1)) + min;
-	}
-	
 	public int getFamily(){
 		return random.nextInt();
+	}
+
+	public Double getDoubleInRange(Double min, Double max, boolean canNegative) {
+		Double result = (random.nextDouble() * ((max-min)+1)) + min;
+		if(canNegative){
+			int negative = random.nextInt();
+			if(negative < 0)
+				result = 0 - result;
+		}
+		return result;
 	}
 
 }

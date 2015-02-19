@@ -121,4 +121,13 @@ public class Position implements IPosition {
 		
 	}
 
+	/**
+	 * For testing only
+	 */
+	public void setPosition(double d, double e, double f) {
+		this.position.set(0, d);
+		this.position.set(1, e);
+		this.position.set(2, f);
+	}
+
 }
