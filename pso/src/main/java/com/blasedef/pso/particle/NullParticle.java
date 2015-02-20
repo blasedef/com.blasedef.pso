@@ -1,6 +1,6 @@
 package com.blasedef.pso.particle;
 
-public class NullParticle implements IParticle {
+public class NullParticle extends Particle {
 
 	private IPosition position;
 	private IPosition velocity;
@@ -26,11 +26,24 @@ public class NullParticle implements IParticle {
 		return 0.0;
 	}
 
-	public boolean isFinished() {
-		return true;
+	@Override
+	public void assessCost() {
+		
 	}
 
-	public void setFinished(boolean b) {
+	@Override
+	public void updateVelocity() {
+		
+	}
+
+	@Override
+	public void move(boolean jumps) {
+		
+	}
+
+	@Override
+	public void run() {
+		
 	}
 
 }

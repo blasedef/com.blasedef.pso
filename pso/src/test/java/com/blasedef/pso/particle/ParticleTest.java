@@ -32,12 +32,13 @@ public class ParticleTest extends TestCase {
 		space.addDimension(100.0, 200.0, rng);
 		space.addDimension(200.0, 300.0, rng);
 		
-		Particle particle = new Particle(originalVelocityProportion, 
+		ActiveParticle particle = new ActiveParticle(originalVelocityProportion, 
 				personalBestProportion, 
 				groupProportion, 
 				globalBestProportion, 
 				group, 
 				rng, 
+				null,
 				globalQueue, 
 				groupList, 
 				barrier, 
@@ -51,7 +52,7 @@ public class ParticleTest extends TestCase {
 		particle.assessCost();
 	
 		//System.out.println(particle);
-		assertEquals(particle.getCost(), 1463.53);
+		assertEquals(particle.getCost(), 1450.0);
 		
 	}
 	
@@ -74,12 +75,13 @@ public class ParticleTest extends TestCase {
 		space.addDimension(0.0, 1000.0, rng);
 		space.addDimension(0.0, 1000.0, rng);
 		
-		Particle particle = new Particle(originalVelocityProportion, 
+		ActiveParticle particle = new ActiveParticle(originalVelocityProportion, 
 				personalBestProportion, 
 				groupProportion, 
 				globalBestProportion, 
 				group, 
 				rng, 
+				null,
 				globalQueue, 
 				groupList, 
 				barrier, 
@@ -92,7 +94,7 @@ public class ParticleTest extends TestCase {
 		particle.assessCost();
 	
 		//System.out.println(particle);
-		assertEquals(particle.getCost(), 2545.0299999999997);
+		assertEquals(particle.getCost(), 2500.0);
 		
 	}
 	
@@ -118,24 +120,26 @@ public class ParticleTest extends TestCase {
 		space.addDimension(0.0, 100.0, rng);
 		space.addDimension(0.0, 100.0, rng);
 		
-		Particle particle1 = new Particle(originalVelocityProportion, 
+		ActiveParticle particle1 = new ActiveParticle(originalVelocityProportion, 
 				personalBestProportion, 
 				groupProportion, 
 				globalBestProportion, 
 				group, 
 				rng, 
+				null,
 				globalQueue, 
 				groupList, 
 				barrier, 
 				costFunction, 
 				space);
 		
-		Particle particle2 = new Particle(originalVelocityProportion, 
+		ActiveParticle particle2 = new ActiveParticle(originalVelocityProportion, 
 				personalBestProportion, 
 				groupProportion, 
 				globalBestProportion, 
 				group, 
 				rng, 
+				null,
 				globalQueue, 
 				groupList, 
 				barrier, 
@@ -154,7 +158,7 @@ public class ParticleTest extends TestCase {
 		particle1.assessCost();
 		particle2.assessCost();
 		
-		assertEquals(globalQueue.peek().getCost(), 1003.12);
+		assertEquals(globalQueue.peek().getCost(), 1003.0);
 		
 	}
 	

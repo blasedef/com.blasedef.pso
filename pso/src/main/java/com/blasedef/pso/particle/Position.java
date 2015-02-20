@@ -45,15 +45,6 @@ public class Position implements IPosition {
 		this.position = position;
 	}
 	
-	public void setPosition(IPosition position) {
-		if(this.position == null){
-			this.position = new ArrayList<Double>();
-		}
-		for(int index = 0; index < position.getSize(); index++){
-			this.position.add(position.getPosition(index));
-		}
-	}
-	
 	public Double getPosition(int i) {
 		return position.get(i);
 	}
@@ -78,16 +69,6 @@ public class Position implements IPosition {
 		if(!isVelocity){
 			for(int index = 0; index < velocity.getSize(); index++){
 				Double x = space.fit(index, this.position.get(index) + velocity.getPosition(index) * jumps.getPosition(index));
-				this.position.set(index, x);
-			}
-		}
-	}
-	
-	public void move(IPosition velocity){
-		
-		if(!isVelocity){
-			for(int index = 0; index < velocity.getSize(); index++){
-				Double x = space.fit(index,this.position.get(index) + velocity.getPosition(index));
 				this.position.set(index, x);
 			}
 		}

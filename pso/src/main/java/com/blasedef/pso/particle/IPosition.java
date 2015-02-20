@@ -10,8 +10,6 @@ public interface IPosition {
 	
 	public void setPosition(ArrayList<Double> position);
 	
-	public void move(IPosition velocity);
-	
 	public void move(IPosition velocity, IPosition jumps);
 	
 	public Double getCost();
