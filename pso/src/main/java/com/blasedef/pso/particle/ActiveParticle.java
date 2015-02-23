@@ -132,6 +132,8 @@ public class ActiveParticle extends Particle {
 	@Override
 	public void run() {
 		
+		System.out.println(this);
+		
 		this.barrier.increment1();
 		while(this.barrier.barrier1())
 		this.barrier.increment2();	

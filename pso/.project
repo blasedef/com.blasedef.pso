@@ -3,6 +3,8 @@
 	<name>pso</name>
 	<comment></comment>
 	<projects>
+		<project>eu.quanticol.carma</project>
+		<project>eu.quanticol.carma.jamesii</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
