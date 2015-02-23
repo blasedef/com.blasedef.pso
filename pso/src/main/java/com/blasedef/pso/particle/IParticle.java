@@ -1,6 +1,6 @@
 package com.blasedef.pso.particle;
 
-public interface IParticle {
+public interface IParticle extends Runnable {
 
 	public IPosition getPosition();
 	

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <object class="org.jamesii.gui.application.preferences.config.MainConfFile" id="MainConfFile0">
+  <void property="fileName">
+   <string>/home/twig/git/com.blasedef.pso/pso/mainconfig.xml</string>
+  </void>
+  <void property="values">
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.perspective.preset.PresetPerspective</string>
+    <boolean>true</boolean>
+   </void>
+   <void method="put">
+    <string>mainWindow.size</string>
+    <object class="java.awt.Dimension" id="Dimension0">
+     <void class="java.awt.Dimension" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Dimension0"/>
+       <int>800</int>
+      </void>
+     </void>
+     <void class="java.awt.Dimension" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Dimension0"/>
+       <int>600</int>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>mainWindow.state</string>
+    <int>0</int>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.perspective.laf.LafPerspective</string>
+    <boolean>true</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.server.ServerManagementPerspective</string>
+    <boolean>false</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.iconset</string>
+    <string>org.jamesii.gui.application.resource.iconset.DefaultIconSet</string>
+   </void>
+   <void method="put">
+    <string>LookAndFeel</string>
+    <string>com.sun.java.swing.plaf.gtk.GTKLookAndFeel</string>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.perspective.DefaultPerspective</string>
+    <boolean>true</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.visualization.VisDataAnalysisPerspective</string>
+    <boolean>false</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.experiment.ExperimentPerspective</string>
+    <boolean>false</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.confirm.exit</string>
+    <boolean>false</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.model.ModelPerspective</string>
+    <boolean>false</boolean>
+   </void>
+   <void method="put">
+    <string>org.jamesii.perspectives.open.org.jamesii.gui.workflow.WorkflowPerspective</string>
+    <boolean>false</boolean>
+   </void>
+   <void method="put">
+    <string>mainWindow.position</string>
+    <object class="java.awt.Point" id="Point0">
+     <void class="java.awt.Point" method="getField">
+      <string>x</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>1613</int>
+      </void>
+     </void>
+     <void class="java.awt.Point" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Point0"/>
+       <int>232</int>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

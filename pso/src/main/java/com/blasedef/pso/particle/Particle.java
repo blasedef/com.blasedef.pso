@@ -13,6 +13,12 @@ public abstract class Particle implements IParticle, Comparable<IParticle>, Runn
 	protected int family;
 	protected IRandomNumberGenerator rng;
 	protected ISpace space;
+	
+	public static final String OVPROP = "Original velocity proportion";
+	public static final String LOPROP = "Local best position proportion";
+	public static final String GPPROP = "Group best position proportion";
+	public static final String GBPROP = "Global best position proportion";
+	public static final String TOPROP = "Total prop";
 
 	
 	public Particle(){

@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <object class="org.jamesii.core.util.Reflect" method="instantiate">
+  <class>org.jamesii.core.plugins.metadata.file.RuntimeData</class>
+  <array class="java.lang.Object" length="3">
+   <void index="0">
+    <object class="java.util.HashMap">
+     <void method="put">
+      <class>org.jamesii.core.experiments.optimization.plugintype.AbstractOptimizerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.optimization.plugintype.AbstractOptimizerFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.optimization.plugintype.OptimizerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.encoding.plugintype.AbstractEncodingFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.util.encoding.plugintype.AbstractEncodingFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.util.encoding.plugintype.EncodingFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.modelbrowser.plugintype.AbstractModelBrowserFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.modelbrowser.plugintype.AbstractModelBrowserFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.visualization.modelbrowser.plugintype.ModelBrowserFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.dialogs.plugintype.AbstractFactoryParameterDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.utils.dialogs.plugintype.AbstractFactoryParameterDialogFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.utils.dialogs.plugintype.FactoryParameterDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.taskrunner.plugintype.AbstractTaskRunnerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.taskrunner.plugintype.AbstractTaskRunnerFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.taskrunner.plugintype.TaskRunnerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.plugintype.AbstractViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.plugintype.AbstractViewFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.utils.list.view.plugintype.ViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.resilience.recover.AbstractRecoverModelFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.resilience.recover.AbstractRecoverModelFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.resilience.recover.RecoverModelFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.replication.plugintype.AbstractRepCriterionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.replication.plugintype.AbstractRepCriterionFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.replication.plugintype.RepCriterionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.plugintype.AbstractRandomGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.plugintype.AbstractRandomGeneratorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.math.random.generators.plugintype.RandomGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.model.symbolic.convert.plugintype.AbstractConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.model.symbolic.convert.plugintype.AbstractConverterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.model.symbolic.convert.plugintype.ConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.autotask.plugintype.AbstractAutoTaskFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.application.autotask.plugintype.AbstractAutoTaskFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.application.autotask.plugintype.AutoTaskFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.security.auth.AbstractAuthManagerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.security.auth.AbstractAuthManagerFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.security.auth.AuthManagerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.storage.plugintype.AbstractDataStorageFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.storage.plugintype.AbstractDataStorageFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.storage.plugintype.DataStorageFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.model.read.plugintype.AbstractModelReaderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.model.read.plugintype.AbstractModelReaderFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.model.read.plugintype.ModelReaderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plot.plugintype.AbstractPlotFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plot.plugintype.AbstractPlotFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.visualization.chart.plot.plugintype.PlotFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.plugintype.AbstractValueConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.plugintype.AbstractValueConverterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.plugintype.ValueConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.model.write.plugintype.AbstractModelWriterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.model.write.plugintype.AbstractModelWriterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.model.write.plugintype.ModelWriterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.plugintype.AbstractAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.plugintype.AbstractAggregatorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.plugintype.AggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.windows.plugintype.AbstractModelWindowFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.model.windows.plugintype.AbstractModelWindowFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.model.windows.plugintype.ModelWindowFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.resource.iconset.plugintype.AbstractIconSetFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.application.resource.iconset.plugintype.AbstractIconSetFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.application.resource.iconset.plugintype.IconSetFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.model.parameter.write.plugintype.AbstractModelParameterWriterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.model.parameter.write.plugintype.AbstractModelParameterWriterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.model.parameter.write.plugintype.ModelParameterWriterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.refining.AbstractRefineFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.refining.AbstractRefineFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.refining.RefineFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.optimization.algorithm.plugintype.AbstractOptimizationAlgorithmFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.optimization.algorithm.plugintype.AbstractOptimizationAlgorithmFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.optimization.algorithm.plugintype.OptimizationAlgorithmFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.simulation.distributed.processor.AbstractREMOTEProcessorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.simulation.distributed.processor.AbstractREMOTEProcessorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.simulation.distributed.processor.RemoteProcessorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.instrumentation.computation.plugintype.AbstractComputationInstrumenterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.instrumentation.computation.plugintype.AbstractComputationInstrumenterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.instrumentation.computation.plugintype.ComputationInstrumenterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experimentsuite.read.plugintype.AbstractExperimentSuiteReaderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.experimentsuite.read.plugintype.AbstractExperimentSuiteReaderFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.experimentsuite.read.plugintype.ExperimentSuiteReaderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.interpolation.plugintype.AbstractInterpolationFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.math.interpolation.plugintype.AbstractInterpolationFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.math.interpolation.plugintype.InterpolationFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.partitioning.plugintype.AbstractPartitioningFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.plugintype.AbstractPartitioningFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.plugintype.PartitioningFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.offline.plugintype.AbstractOfflineVisFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.offline.plugintype.AbstractOfflineVisFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.visualization.offline.plugintype.OfflineVisFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.transmission.plugintype.AbstractObjectTransmissionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.transmission.plugintype.AbstractObjectTransmissionFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.transmission.plugintype.ObjectTransmissionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.loadbalancing.plugintype.AbstractLoadBalancingFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.loadbalancing.plugintype.AbstractLoadBalancingFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.loadbalancing.plugintype.LoadBalancingFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.observe.listener.plugintype.AbstractObserverListenerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.observe.listener.plugintype.AbstractObserverListenerFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.observe.listener.plugintype.ObserverListenerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.rnggenerator.plugintype.AbstractRandomSeedGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.math.random.rnggenerator.plugintype.AbstractRandomSeedGeneratorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.math.random.rnggenerator.plugintype.RNGGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.perspective.laf.plugintype.AbstractLookAndFeelFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.perspective.laf.plugintype.AbstractLookAndFeelFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.perspective.laf.plugintype.LookAndFeelFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.syntaxeditor.highlighting.plugintype.AbstractHighlightingFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.syntaxeditor.highlighting.plugintype.AbstractHighlightingFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.syntaxeditor.highlighting.plugintype.HighlightingFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.abortcriterion.AbstractAbortCriterionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.abortcriterion.AbstractAbortCriterionFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.abortcriterion.AbortCriterionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.info.benchmark.plugintype.AbstractBenchmarkFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.util.info.benchmark.plugintype.AbstractBenchmarkFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.util.info.benchmark.plugintype.BenchmarkFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.service.view.plugintype.AbstractServiceViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.service.view.plugintype.AbstractServiceViewFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.service.view.plugintype.ServiceViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.infrastructureanalyzer.plugintype.AbstractInfrastructureAnalyzerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.infrastructureanalyzer.plugintype.AbstractInfrastructureAnalyzerFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.partitioner.infrastructureanalyzer.plugintype.InfrastructureAnalyzerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experimentsuite.write.plugintype.AbstractExperimentSuiteWriterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.experimentsuite.write.plugintype.AbstractExperimentSuiteWriterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.experimentsuite.write.plugintype.ExperimentSuiteWriterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.resilience.plugintype.AbstractDataResilienceFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.resilience.plugintype.AbstractDataResilienceFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.resilience.plugintype.DataResilienceFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.perspective.plugintype.AbstractPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.perspective.plugintype.AbstractPerspectiveFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.perspective.plugintype.PerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experiment.read.plugintype.AbstractExperimentReaderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.experiment.read.plugintype.AbstractExperimentReaderFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.experiment.read.plugintype.ExperimentReaderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.plugintype.AbstractVariableModifierFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.plugintype.AbstractVariableModifierFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.variables.modifier.plugintype.VariableModifierFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.statistics.tests.plugintype.AbstractPairedTestFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.math.statistics.tests.plugintype.AbstractPairedTestFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.math.statistics.tests.plugintype.PairedTestFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.resource.plugintype.AbstractResourceProviderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.application.resource.plugintype.AbstractResourceProviderFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.application.resource.plugintype.ResourceProviderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.processor.execontrol.plugintype.AbstractExecutionControlFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.processor.execontrol.plugintype.AbstractExecutionControlFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.processor.execontrol.plugintype.ExecutionControlFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.integrators.plugintype.AbstractODESolverFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.math.integrators.plugintype.AbstractODESolverFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.math.integrators.plugintype.ODESolverFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.cmdparameters.plugintype.AbstractCMDParameterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.cmdparameters.plugintype.AbstractCMDParameterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.cmdparameters.plugintype.CMDParameterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.model.parameter.read.plugintype.AbstractModelParameterReaderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.model.parameter.read.plugintype.AbstractModelParameterReaderFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.model.parameter.read.plugintype.ModelParameterReaderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.plugintype.AbstractEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.plugintype.AbstractEventQueueFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.util.eventset.plugintype.EventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experiment.write.plugintype.AbstractExperimentWriterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.experiment.write.plugintype.AbstractExperimentWriterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.experiment.write.plugintype.ExperimentWriterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.processor.plugintype.AbstractProcessorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.processor.plugintype.AbstractProcessorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.processor.plugintype.ProcessorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.model.plugintype.AbstractModelFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.model.plugintype.AbstractModelFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.model.plugintype.ModelFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.simulation.distributed.model.AbstractREMOTEModelFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.simulation.distributed.model.AbstractREMOTEModelFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.simulation.distributed.model.RemoteModelFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.wrapper.plugintype.AbstractDataStorageWrapperFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.wrapper.plugintype.AbstractDataStorageWrapperFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.wrapper.plugintype.DataStorageWrapperFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.tasks.stoppolicy.plugintype.AbstractComputationTaskStopPolicyFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.tasks.stoppolicy.plugintype.AbstractComputationTaskStopPolicyFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.tasks.stoppolicy.plugintype.ComputationTaskStopPolicyFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.workflow.experiment.plugintype.AbstractExperimentSetupEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.workflow.experiment.plugintype.AbstractExperimentSetupEditorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.workflow.experiment.plugintype.ExperimentSetupEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.plugintype.AbstractParamEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.plugintype.AbstractParamEditorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.utils.parameters.editor.plugintype.ParamEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.modelanalyzer.plugintype.AbstractModelAnalyzerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.modelanalyzer.plugintype.AbstractModelAnalyzerFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.partitioner.modelanalyzer.plugintype.ModelAnalyzerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.parametersetup.plugintype.AbstractModelParameterSetupWindowFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.model.parametersetup.plugintype.AbstractModelParameterSetupWindowFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.model.parametersetup.plugintype.ModelParameterSetupWindowFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.allocation.plugintype.AbstractSimulationResourceAllocatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.allocation.plugintype.AbstractSimulationResourceAllocatorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.allocation.plugintype.SimulationResourceAllocatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.test.reports.comparator.plugintype.AbstractTestReportComparatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.test.reports.comparator.plugintype.AbstractTestReportComparatorFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.test.reports.comparator.plugintype.TestReportComparatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.instrumentation.model.plugintype.AbstractModelInstrumenterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.instrumentation.model.plugintype.AbstractModelInstrumenterFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.instrumentation.model.plugintype.ModelInstrumenterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.plugintype.AbstractDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.plugintype.AbstractDistributionFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.math.random.distributions.plugintype.DistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.base.plugintype.AbstractModelInfoProviderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.gui.model.base.plugintype.AbstractModelInfoProviderFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.gui.model.base.plugintype.ModelInfoProviderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.coarsening.AbstractCoarsenFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.coarsening.AbstractCoarsenFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.coarsening.CoarsenFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.tasks.setup.plugintype.AbstractTaskSetupFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.experiments.tasks.setup.plugintype.AbstractTaskSetupFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.experiments.tasks.setup.plugintype.TaskSetupFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.source.plugintype.AbstractDataSourceFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.AbstractFactoryRuntimeData</class>
+       <array class="java.lang.Object" length="2">
+        <void index="0">
+         <class>org.jamesii.core.data.source.plugintype.AbstractDataSourceFactory</class>
+        </void>
+        <void index="1">
+         <class>org.jamesii.core.data.source.plugintype.DataSourceFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void index="1">
+    <object class="java.util.HashMap">
+     <void method="put">
+      <class>org.jamesii.core.math.interpolation.ExponentialSplineInterpolatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.interpolation.ExponentialSplineInterpolatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.mersennetwister.MersenneTwisterGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.mersennetwister.MersenneTwisterGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.processor.execontrol.DefaultExecutionControlFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.processor.execontrol.DefaultExecutionControlFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.interpolation.PolynomialNewtonInterpolatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.interpolation.PolynomialNewtonInterpolatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.LongConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.LongConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.SimpleEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.SimpleEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.SmallItemViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.SmallItemViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.MultiLevelPartitioningFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.distributed.partitioner.partitioning.multilevel.MultiLevelPartitioningFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.resource.TextfileResourceProviderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.application.resource.TextfileResourceProviderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.LinkedListEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.LinkedListEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.base.ModelTextEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.base.ModelTextEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.NormalDistributionBoxMullerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.NormalDistributionBoxMullerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.ErlangDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.ErlangDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.ModelPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.ModelPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.LargeItemViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.LargeItemViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.PoissonDistributionKnuthFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.PoissonDistributionKnuthFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.extensions.LongEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.extensions.LongEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.dialogs.BrowseForModelsFromFileSystemFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.dialogs.BrowseForModelsFromFileSystemFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.AvgAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.AvgAggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.TilesItemViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.TilesItemViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.perspective.autotask.DefaultAutoTaskFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.perspective.autotask.DefaultAutoTaskFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.GammaDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.GammaDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.MathExpressionModifierDoubleFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.MathExpressionModifierDoubleFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.parametersetup.dialogs.OpenModelParameterFromFileSystemFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.parametersetup.dialogs.OpenModelParameterFromFileSystemFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.rnggenerator.pre.PreDefinedSeedsRandGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.rnggenerator.pre.PreDefinedSeedsRandGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.CamelDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.CamelDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.MedianAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.MedianAggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.securerandom.SecureRandomGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.securerandom.SecureRandomGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.interpolation.DiscreteInterpolatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.interpolation.DiscreteInterpolatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.experiment.dialogs.BrowseExperimentsFSDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.experiment.dialogs.BrowseExperimentsFSDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.TriangularDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.TriangularDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.tasks.stoppolicy.steps.StepCountStopFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.tasks.stoppolicy.steps.StepCountStopFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.DoubleVectorElementModifierFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.DoubleVectorElementModifierFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.rnggenerator.simple.CurrentTimeRandSeedGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.rnggenerator.simple.CurrentTimeRandSeedGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experimentsuite.filesystem.write.ExpSuiteWriterFSFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.data.experimentsuite.filesystem.write.ExpSuiteWriterFSFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.NormalDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.NormalDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.TreeSetEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.TreeSetEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.TwoListWithBucketsSimpleThresholdFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.TwoListWithBucketsSimpleThresholdFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.extensions.StringEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.extensions.StringEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.simulationrun.stoppolicy.WallClockTimeStopFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.simulationrun.stoppolicy.WallClockTimeStopFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.PriorityQueueEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.PriorityQueueEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.MaxAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.MaxAggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.experiment.dialogs.WriteExperimentSuiteFSDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.experiment.dialogs.WriteExperimentSuiteFSDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.DoubleConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.DoubleConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.tasks.stoppolicy.concurrent.ConcurrentComputationTaskStopPolicyFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.tasks.stoppolicy.concurrent.ConcurrentComputationTaskStopPolicyFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experimentsuite.filesystem.read.ExpSuiteReaderFSFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.data.experimentsuite.filesystem.read.ExpSuiteReaderFSFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.extensions.IntegerEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.extensions.IntegerEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.LaPlaceDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.LaPlaceDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plot.LinePlotFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plot.LinePlotFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.extensions.FallbackEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.extensions.FallbackEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.UniformDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.UniformDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experiment.filesystem.write.BaseExperimentFileWriterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.data.experiment.filesystem.write.BaseExperimentFileWriterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.VisDataAnalysisPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.VisDataAnalysisPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.IntegerConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.IntegerConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.experiment.ExperimentPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.experiment.ExperimentPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.FDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.FDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.taskrunner.parallel.ParallelComputationTaskRunnerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.taskrunner.parallel.ParallelComputationTaskRunnerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.workflow.experiment.parameterexploration.ParameterExplorationSetupFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.workflow.experiment.parameterexploration.ParameterExplorationSetupFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.SimpleBucketsEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.SimpleBucketsEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.SortedListEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.SortedListEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plot.SkylinePlotFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plot.SkylinePlotFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.ColorConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.ColorConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.simulationrun.stoppolicy.ConjunctiveSimRunStopPolicyFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.simulationrun.stoppolicy.ConjunctiveSimRunStopPolicyFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.dialogs.ModelFileWriterParamDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.dialogs.ModelFileWriterParamDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.experiment.dialogs.WriteExperimentFSDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.experiment.dialogs.WriteExperimentFSDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.dialogs.OpenModelFromFileSystemFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.dialogs.OpenModelFromFileSystemFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.observe.listener.DefaultObserverListenerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.observe.listener.DefaultObserverListenerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.ExponentialDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.ExponentialDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.instrumentation.computation.composed.ComputationInstrumenterListFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.instrumentation.computation.composed.ComputationInstrumenterListFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plotter.ObserverDataPlotterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plotter.ObserverDataPlotterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.ChiSquareDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.ChiSquareDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.instrumentation.computation.generic.GenericComputationInstrumenterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.instrumentation.computation.generic.GenericComputationInstrumenterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.perspective.preset.PresetPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.perspective.preset.PresetPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.BucketsThresholdEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.BucketsThresholdEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.server.view.master.MasterServerViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.server.view.master.MasterServerViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plotter.ObserverDataPlotterIncrementalFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plotter.ObserverDataPlotterIncrementalFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.macos.autotask.MacOSMenuInitTaskFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.macos.autotask.MacOSMenuInitTaskFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.PoissonDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.PoissonDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.info.benchmark.simple.SimpleBenchmarkFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.info.benchmark.simple.SimpleBenchmarkFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.tasks.stoppolicy.EmptyStopConditionStopPolicyFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.tasks.stoppolicy.EmptyStopConditionStopPolicyFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.BimodalDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.BimodalDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.IncrementModifierIntegerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.IncrementModifierIntegerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plot.ColoredAntiAliasedPlotFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plot.ColoredAntiAliasedPlotFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.perspective.laf.LafPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.perspective.laf.LafPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.replication.ConfidenceIntervalCriterionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.replication.ConfidenceIntervalCriterionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.resource.InputStreamResourceProviderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.application.resource.InputStreamResourceProviderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.MathExpressionModifierIntegerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.MathExpressionModifierIntegerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.taskrunner.sequential.SequentialSimulationRunnerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.taskrunner.sequential.SequentialSimulationRunnerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.parametersetup.dialogs.BrowseForModelParametersFromFileSystemFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.parametersetup.dialogs.BrowseForModelParametersFromFileSystemFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.server.ServerManagementPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.server.ServerManagementPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.extensions.DoubleEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.extensions.DoubleEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.NegativeTriangularDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.NegativeTriangularDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.plot.CirclePlotFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.plot.CirclePlotFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.ListItemViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.ListItemViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.BetaDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.BetaDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.LinkedList2EventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.LinkedList2EventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.CauchyDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.CauchyDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.security.auth.simpleauthmanager.SimpleAuthManagerFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.security.auth.simpleauthmanager.SimpleAuthManagerFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.workflow.WorkflowPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.workflow.WorkflowPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.model.parametersetup.dialogs.ModelParameterFileWriterParamDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.model.parametersetup.dialogs.ModelParameterFileWriterParamDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.distributed.allocation.ConstantResourceAllocatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.distributed.allocation.ConstantResourceAllocatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.model.implemented.ImplementedModelReaderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.data.model.implemented.ImplementedModelReaderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.HeapEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.HeapEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.editor.extensions.BooleanEditorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.editor.extensions.BooleanEditorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.IncrementModifierDoubleFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.IncrementModifierDoubleFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.StringConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.StringConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.simulationrun.stoppolicy.SimTimeStopFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.simulationrun.stoppolicy.SimTimeStopFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.DirectoryConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.DirectoryConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.SimpleReBucketsEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.SimpleReBucketsEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.replication.RepNumberCriterionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.replication.RepNumberCriterionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.perspective.DefaultPerspectiveFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.perspective.DefaultPerspectiveFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.resource.IconResourceProviderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.application.resource.IconResourceProviderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.DeviationAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.DeviationAggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.VarianceAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.VarianceAggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.StudentsDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.StudentsDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.java.JavaRandomGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.java.JavaRandomGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.interpolation.LinearInterpolatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.interpolation.LinearInterpolatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.special.initphase.InitPhaseSkipGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.special.initphase.InitPhaseSkipGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.interpolation.CubicSplineInterpolatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.interpolation.CubicSplineInterpolatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.statistics.tests.wilcoxon.WilcoxonRankSumTestFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.statistics.tests.wilcoxon.WilcoxonRankSumTestFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.dsplay.DsplayEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.dsplay.DsplayEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.variables.modifier.SequenceModifierFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.variables.modifier.SequenceModifierFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.simulationrun.stoppolicy.DisjunctiveSimRunStopPolicyFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.simulationrun.stoppolicy.DisjunctiveSimRunStopPolicyFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.experiment.dialogs.ReadExperimentFSDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.experiment.dialogs.ReadExperimentFSDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.lcg.LCGGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.lcg.LCGGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.parameters.factories.converter.BooleanConverterFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.parameters.factories.converter.BooleanConverterFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.tasks.setup.internalsimrun.SimulationRunFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.tasks.setup.internalsimrun.SimulationRunFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.DetailedItemViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.DetailedItemViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.generators.randu.RANDUGeneratorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.generators.randu.RANDUGeneratorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.application.resource.ImageResourceProviderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.application.resource.ImageResourceProviderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.experiments.replication.MaximizingReplicationCriterionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.experiments.replication.MaximizingReplicationCriterionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.InverseGaussianDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.InverseGaussianDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.transmission.LazyObjectReceiverFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.data.transmission.LazyObjectReceiverFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.util.eventset.UnsortedListEventQueueFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.util.eventset.UnsortedListEventQueueFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.utils.list.view.ContentItemViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.utils.list.view.ContentItemViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.visualization.chart.model.aggregator.MinAggregatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.visualization.chart.model.aggregator.MinAggregatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.experiment.dialogs.ReadExperimentSuiteFSDialogFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.experiment.dialogs.ReadExperimentSuiteFSDialogFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.math.random.distributions.WeibullDistributionFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.math.random.distributions.WeibullDistributionFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.test.reports.comparator.StatisticalMeasureComparatorFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.test.reports.comparator.StatisticalMeasureComparatorFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.gui.server.view.simulation.SimulationServerViewFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.gui.server.view.simulation.SimulationServerViewFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+     <void method="put">
+      <class>org.jamesii.core.data.experiment.filesystem.read.BaseExperimentFileReaderFactory</class>
+      <object class="org.jamesii.core.util.Reflect" method="instantiate">
+       <class>org.jamesii.core.plugins.metadata.FactoryRuntimeData</class>
+       <array class="java.lang.Object" length="1">
+        <void index="0">
+         <class>org.jamesii.core.data.experiment.filesystem.read.BaseExperimentFileReaderFactory</class>
+        </void>
+       </array>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void index="2">
+    <object class="java.lang.Enum" method="valueOf">
+     <class>org.jamesii.core.plugins.metadata.FailureTolerance</class>
+     <string>ACCEPT_UNTESTED</string>
+    </object>
+   </void>
+  </array>
+ </object>
+</java>

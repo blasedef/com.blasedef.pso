@@ -16,20 +16,14 @@ public class ActiveParticle extends Particle {
 	private HashMap<Integer,PriorityQueue<IParticle>> groupList;
 	private Barrier barrier;
 	private ICostFunction costFunction;
-	private Double originalVelocityProportion, 
-	personalBestProportion, 
-	groupProportion, 
-	globalBestProportion;
+	private HashMap<String,Double> proportions;
 
 	
 	public ActiveParticle(IRandomNumberGenerator rng, ISpace space){
 		super(rng,space);
 	}
 	
-	public ActiveParticle(Double originalVelocityProportion,
-			Double personalBestProportion,
-			Double groupProportion,
-			Double globalBestProportion,
+	public ActiveParticle(HashMap<String,Double> proportions,
 			Integer group,
 			IRandomNumberGenerator rng,
 			IPosition jumps,
@@ -41,10 +35,16 @@ public class ActiveParticle extends Particle {
 		
 		super(rng,space);
 		
-		this.originalVelocityProportion = originalVelocityProportion;
-		this.personalBestProportion = personalBestProportion;
-		this.groupProportion = groupProportion;
-		this.globalBestProportion = globalBestProportion;
+		this.proportions = proportions;
+		proportions.put(TOPROP, proportions.get(OVPROP) 
+				+ proportions.get(LOPROP) 
+				+ proportions.get(GPPROP)
+				+ proportions.get(GBPROP));
+		
+		for(String key : proportions.keySet()){
+			if(!key.equals(TOPROP))
+				proportions.put(key, this.proportions.get(key)/this.proportions.get(TOPROP)); 
+		}
 		
 		this.group = group;
 
@@ -93,11 +93,11 @@ public class ActiveParticle extends Particle {
 		
 		for(int i = 0; i < this.position.getSize(); i++){
 			
-			Double personalBestWeight = rng.getRandomNumber(personalBestProportion);
-			Double groupBestWeight = rng.getRandomNumber(groupProportion);
-			Double globalBestWeight = rng.getRandomNumber(globalBestProportion);
+			Double personalBestWeight = rng.getRandomNumber(this.proportions.get(LOPROP));
+			Double groupBestWeight = rng.getRandomNumber(this.proportions.get(GPPROP));
+			Double globalBestWeight = rng.getRandomNumber(this.proportions.get(GBPROP));
 			
-			Double velocity = (this.velocity.getPosition(i)*this.originalVelocityProportion) +
+			Double velocity = (this.velocity.getPosition(i)*(this.proportions.get(OVPROP))) +
 					(this.myBest.peek().getPosition(i)*personalBestWeight) +
 					(group.getPosition(i)*groupBestWeight) +
 					(global.getPosition(i)*globalBestWeight);

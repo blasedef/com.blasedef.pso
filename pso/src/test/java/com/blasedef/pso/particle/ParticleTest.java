@@ -1,5 +1,10 @@
 package com.blasedef.pso.particle;
 
+import static com.blasedef.pso.particle.Particle.GBPROP;
+import static com.blasedef.pso.particle.Particle.GPPROP;
+import static com.blasedef.pso.particle.Particle.LOPROP;
+import static com.blasedef.pso.particle.Particle.OVPROP;
+
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
@@ -17,25 +22,26 @@ public class ParticleTest extends TestCase {
 	public void testAssessParticle1() {
 		
 		
-		Double originalVelocityProportion = 0.01;
-		Double personalBestProportion = 0.01;
-		Double groupProportion = 0.01;
-		Double globalBestProportion = 0.01;
+		@SuppressWarnings("serial")
+		HashMap<String,Double> proportions = new HashMap<String,Double>() {{
+			put(OVPROP,0.01);
+			put(LOPROP,0.01);
+			put(GPPROP,0.01);
+			put(GBPROP,0.01);
+		}};
+		
 		int group = 0;
 		IRandomNumberGenerator rng = new NoRandomNumberGenerator();
 		PriorityQueue<IParticle> globalQueue = new PriorityQueue<IParticle>();
 		HashMap<Integer,PriorityQueue<IParticle>> groupList = new HashMap<Integer,PriorityQueue<IParticle>>();
 		Barrier barrier = new Barrier();
 		ICostFunction costFunction = new SimpleCostFunction();
-		ISpace space = new Space(null,null,null,null);
+		ISpace space = new Space();
 		space.addDimension(0.0, 100.0, rng);
 		space.addDimension(100.0, 200.0, rng);
 		space.addDimension(200.0, 300.0, rng);
 		
-		ActiveParticle particle = new ActiveParticle(originalVelocityProportion, 
-				personalBestProportion, 
-				groupProportion, 
-				globalBestProportion, 
+		ActiveParticle particle = new ActiveParticle(proportions, 
 				group, 
 				rng, 
 				null,
@@ -60,25 +66,25 @@ public class ParticleTest extends TestCase {
 	public void testAssessParticle2() {
 		
 		
-		Double originalVelocityProportion = 0.01;
-		Double personalBestProportion = 0.01;
-		Double groupProportion = 0.01;
-		Double globalBestProportion = 0.01;
+		@SuppressWarnings("serial")
+		HashMap<String,Double> proportions = new HashMap<String,Double>() {{
+			put(OVPROP,0.01);
+			put(LOPROP,0.01);
+			put(GPPROP,0.01);
+			put(GBPROP,0.01);
+		}};
 		int group = 0;
 		IRandomNumberGenerator rng = new NoRandomNumberGenerator();
 		PriorityQueue<IParticle> globalQueue = new PriorityQueue<IParticle>();
 		HashMap<Integer,PriorityQueue<IParticle>> groupList = new HashMap<Integer,PriorityQueue<IParticle>>();
 		Barrier barrier = new Barrier();
 		ICostFunction costFunction = new SimpleCostFunction();
-		ISpace space = new Space(null,null,null,null);
+		ISpace space = new Space();
 		space.addDimension(0.0, 1000.0, rng);
 		space.addDimension(0.0, 1000.0, rng);
 		space.addDimension(0.0, 1000.0, rng);
 		
-		ActiveParticle particle = new ActiveParticle(originalVelocityProportion, 
-				personalBestProportion, 
-				groupProportion, 
-				globalBestProportion, 
+		ActiveParticle particle = new ActiveParticle(proportions, 
 				group, 
 				rng, 
 				null,
@@ -101,10 +107,13 @@ public class ParticleTest extends TestCase {
 	public void testAssessParticle3() {
 		
 		
-		Double originalVelocityProportion = 0.01;
-		Double personalBestProportion = 0.01;
-		Double groupProportion = 0.01;
-		Double globalBestProportion = 0.01;
+		@SuppressWarnings("serial")
+		HashMap<String,Double> proportions = new HashMap<String,Double>() {{
+			put(OVPROP,0.01);
+			put(LOPROP,0.01);
+			put(GPPROP,0.01);
+			put(GBPROP,0.01);
+		}};
 		
 		int group = 0;
 		
@@ -115,15 +124,12 @@ public class ParticleTest extends TestCase {
 		Barrier barrier = new Barrier();
 		ICostFunction costFunction = new SimpleCostFunction();
 		
-		ISpace space = new Space(null,null,null,null);
+		ISpace space = new Space();
 		space.addDimension(0.0, 100.0, rng);
 		space.addDimension(0.0, 100.0, rng);
 		space.addDimension(0.0, 100.0, rng);
 		
-		ActiveParticle particle1 = new ActiveParticle(originalVelocityProportion, 
-				personalBestProportion, 
-				groupProportion, 
-				globalBestProportion, 
+		ActiveParticle particle1 = new ActiveParticle(proportions, 
 				group, 
 				rng, 
 				null,
@@ -133,10 +139,7 @@ public class ParticleTest extends TestCase {
 				costFunction, 
 				space);
 		
-		ActiveParticle particle2 = new ActiveParticle(originalVelocityProportion, 
-				personalBestProportion, 
-				groupProportion, 
-				globalBestProportion, 
+		ActiveParticle particle2 = new ActiveParticle(proportions, 
 				group, 
 				rng, 
 				null,

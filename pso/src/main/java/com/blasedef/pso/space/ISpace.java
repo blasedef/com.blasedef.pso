@@ -18,5 +18,7 @@ public interface ISpace {
 	public ArrayList<Double> initialiseVelocity();
 	
 	public void addDimension(Double min, Double max, IRandomNumberGenerator rng);
+	
+	public void addDimension(Tuple tuple);
 
 }
