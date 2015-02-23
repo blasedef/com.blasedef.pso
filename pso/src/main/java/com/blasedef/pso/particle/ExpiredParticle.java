@@ -37,4 +37,16 @@ public class ExpiredParticle extends Particle {
 	public void run() {
 		
 	}
+	
+	@Override
+	public String toString(){
+		String name = "";
+		
+		name = "pos:" + this.position.toString();
+		name = name + " vel:" + this.velocity.toString();
+		name = name + " gen:" + this.generation;
+		name = name + " fam:" + this.family;
+		
+		return name;
+	}
 }

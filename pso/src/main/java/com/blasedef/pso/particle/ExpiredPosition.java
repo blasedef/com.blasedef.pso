@@ -54,8 +54,7 @@ public class ExpiredPosition implements IPosition {
 			name = name + " " + i + ":" + this.position.get(i);
 		}
 		
-		return name;
-		
+		return name + " @Cost " + this.cost;
 	}
 
 	public void setPosition(IPosition position) {

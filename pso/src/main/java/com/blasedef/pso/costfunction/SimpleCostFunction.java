@@ -7,7 +7,7 @@ public class SimpleCostFunction implements ICostFunction {
 	public void assessCost(IPosition p) {
 		
 		Double temp = 0.0;
-		Double target = -1000.0;
+		Double target = 0.0;
 		
 		for(int i = 0; i < p.getSize(); i++){
 			temp = temp + p.getPosition(i);
